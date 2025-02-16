@@ -1,0 +1,48 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__
+*.so
+*.egg
+*.eggs
+dist
+build
+eggs
+*.egg-info
+*.venv
+venv/
+ENV/
+env/
+venv.bak/
+.idea/
+.vscode/
+
+# FastAPI specific
+*.db
+*.sqlite3
+*.log
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# Poetry
+.poetry/
+poetry.lock
+
+# VSCode settings
+.vscode/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Environment Variables
+.env
+
+# Test coverage reports
+.coverage
+coverage.xml
+*.cover
+nosetests.xml
+test*.db
